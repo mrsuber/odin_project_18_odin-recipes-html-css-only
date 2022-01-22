@@ -5,4 +5,173 @@
 
 body{
   font-family: 'Roboto', sans-serif;
+  background: #1f2937;
+}
+
+header{
+  padding: 21px 60px;
+  color: white;
+
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .logo{
+  font-weight: bold;
+  font-size: 16px;
+
+}
+
+nav .logo a{
+text-decoration: none;
+color: inherit;
+
+}
+
+.nav__links ul{
+display: flex;
+list-style-type: none;
+
+font-size: 14px;
+}
+
+.nav__links ul li{
+  padding: 0 20px;
+}
+
+.section1{
+  display: flex;
+
+
+  justify-content: center;
+  align-items: center;
+  padding: 0px 100px;
+  margin: 50px 0;
+
+}
+.section1__leftside{
+  height: 165px;
+  width: 441px;
+  margin-right: 125px;
+  margin-bottom: 10px;
+}
+
+.section11__rightside{
+  background: #ffffffa6;
+  height: 165px;
+width: 441px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+font-weight: 400;
+}
+
+.section1__leftside h1{
+  font-size: 42px;
+  font-weight: 600;
+  color: white;
+}
+
+.section1__leftside p{
+  color: white;
+  font-size: 20px;
+
+}
+
+.section1__leftside button{
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 5px 10px;
+  background-color: #3882f6;
+  border: none;
+  border-radius: 10px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.section2{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 25px;
+}
+
+.box-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+.box1,.box2,.box3,.box4{
+  width:150px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px;
+}
+.box1 div,.box2 div,.box3 div,.box4 div{
+  width:150px;
+  height: 150px;
+  border-radius: 10px;
+  border: #3882f6 solid 2px;
+  /* margin: 10px; */
+}
+
+.section3{
+  background-color: #ffffffb8;
+  padding: 49px 224px;
+
+}
+
+.section3 em{
+  font-size: 25px;
+  font-weight: 250;
+}
+.section3 strong{
+  float: right;
+  margin: 25px;
+  font-size: 16px;
+}
+
+.section4{
+  background: white;
+  padding: 60px 113px;
+
+}
+.section4 .container{
+  background: #3882f6;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  padding: 35px 82px;
+  color: white;
+}
+
+.container button{
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 2px white solid;
+  background-color: #3882f6;
+  color: white;
+  font-size: 16px;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+footer{
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
 }
